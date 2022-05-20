@@ -1,4 +1,6 @@
-## Team Generator (Module 10 Challenge)
+# Team Generator (Module 10 Challenge)
+## Walk through video can be seen at:
+https://drive.google.com/file/d/1UHcunfUclAIXVuDTV5V0YLGbsSGg8I-A/view
 
 Github Repo: https://github.com/CorySillaots/build-a-team
 ## Installation:
@@ -22,6 +24,8 @@ Open your coding software, select "open file" and locate the module-10-challenge
 
 # Sample HTML file can be found in the project repository under dist/index.html
 ![image](./utils/images/mockup.png)
+
+
 
 
 ## Collaborators and References
