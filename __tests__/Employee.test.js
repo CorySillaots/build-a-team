@@ -1,19 +1,20 @@
 const Employee = require("../lib/Employee");
 
 describe("Employee", () => {
+    const employee = new Employee("John Smith", 1, "joe@blow.com")
     it("should return the name of the employee", () => {
-        expect(new Employee("First Last", 1, "email@email.com").getName()).toBe("First Last");
+        expect(employee.getName()).toBe("John Smith");
     });
 
     it("should return the ID of the employee", () => {
-        expect(new Employee("First Last", 1, "email@email.com").getId()).toBe(1);
+        expect(employee.getId()).toBe(1);
     });
 
     it("should return the email of the employee", () => {
-        expect(new Employee("First Last", 1, "email@email.com").getEmail()).toBe("email@email.com");
+        expect(employee.getEmail()).toBe("joe@blow.com");
     });
 
     it("should return the role of the employee", () => {
-        expect(new Employee("First Last", 1, "email@email.com").getRole()).toBe("Employee");
+        expect(employee.getRole()).toBe("Employee");
     });
 });
