@@ -1,44 +1,51 @@
-# build-a-team
+## Team Generator (Module 10 Challenge)
 
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
-WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address
-WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab
-WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
-WHEN I enter the team manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
-WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated
+Github Repo: https://github.com/CorySillaots/build-a-team
+## Installation:
+In order to access the files needed to complete the challenge see: https://github.com/CorySillaots/build-a-team and clone either the following HTTPS link or SSH key:
+HTTPS Link: https://github.com/CorySillaots/build-a-team.git
+SSH Key: git@github.com:CorySillaots/build-a-team.git
+In order to clone the project to a "projects" directory, open your terminal (mac) or gitbash (windows) window and type the following commands into your terminal/gitbash command line:
+1 - mkdir projects
+2 - cd ./projects (You can use the command "pwd" to ensure you are in the correct directory)
+3 - git clone <HTTPS link> OR git clone <SSH Key>
+4 - ls (this will list all of the files now inside of the current directory)
 
-app must prompt :
-- name
-- id
-- email
-- getname()
-- getid()
-- getemail()
-- getrole() -> employee, manager (include office number), engineer or intern (include school.) See module for "overrides"
+Open your coding software, select "open file" and locate the module-10-challenge file in your projects directory OR find the correct file in your directory and "Open With" your coding software.
+
+## Usage
+- The purpose of the Build-a-Team is to take user input from a command line application and generate an HTML file.
+- The application should prompt a user for Manager name, ID, email and office number.
+- The application should prompt a user for an Engineer name, ID, email and Github user name.
+- The application should prompt a user for an Intern name, ID and school name.
+- Each role will have different CSS classes in the final HTML file.
+
+# Sample HTML file can be found in the project repository under dist/index.html
+![image](./utils/images/mockup.png)
 
 
+## Collaborators and References
+- Module 9 & 10 Project Code
+    University Of Toronto SCS Coding Boot Camp
 
-project directory structure
+- Module 10 in class exercises
+    University of Toronto SCS Coding Boot Camp
 
-├── __tests__/             //jest tests
-│   ├── Employee.test.js
-│   ├── Engineer.test.js
-│   ├── Intern.test.js
-│   └── Manager.test.js
-├── dist/                  // rendered output (HTML) and CSS style sheet      
-├── lib/                   // classes
-├── src/                   // template helper code 
-├── .gitignore             // indicates which folders and files Git should ignore
-├── index.js               // runs the application
-└── package.json  
+- W3 Schools
+    www.w3schools.com
+
+- Stack Overflow
+    https://stackoverflow.com
+
+- Codecademy
+    www.codecademy.com
+
+## License
+Copyright 2022, Cory Sillaots
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

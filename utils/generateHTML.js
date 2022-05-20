@@ -31,14 +31,14 @@ module.exports = function generateHTML(employeesArray) {
 
             profiles +=`            
                 <div class="card text-center ml-4 mr-4 mb-5 border-dark">
-                    <div class="card-body bg-danger text-light">
+                    <div class="card-body bg-success text-light">
                         <h4 class="card-header">Name: ${employeesArray[i].getName()}</h4>
                         <h4 class="card-title">${employeesArray[i].getRole()}</h4>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${employeesArray[i].getId()}</li>
                         <li class="list-group-item">Email: <a href="mailto:${employeesArray[i].getEmail()}">${employeesArray[i].getEmail()}</a></li>
-                        <li class="list-group-item">Phone Number: ${employeesArray[i].getManagerOffice()}</li>
+                        <li class="list-group-item">Office Number: ${employeesArray[i].getManagerOffice()}</li>
                     </ul>
                 </div>
             `
@@ -46,7 +46,7 @@ module.exports = function generateHTML(employeesArray) {
 
             profiles += `
                 <div class="card text-center ml-4 mr-4 mb-5 border-dark">
-                    <div class="card-body bg-info text-light">
+                    <div class="card-body bg-primary text-light">
                         <h4 class="card-header">${employeesArray[i].getName()}</h4>
                         <h4 class="card-title">${employeesArray[i].getRole()}</h4>
                     </div>
